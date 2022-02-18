@@ -1,0 +1,209 @@
+[root@localhost jamal]# vi /etc/yum.repos.d/mongodb-enterprise-5.0.repo
+
+[1]+  Stopped                 vi /etc/yum.repos.d/mongodb-enterprise-5.0.repo
+[root@localhost jamal]# 
+[root@localhost jamal]# vi  /etc/yum.repos.d/mongodb-enterprise-5.0.repo
+
+[2]+  Stopped                 vi /etc/yum.repos.d/mongodb-enterprise-5.0.repo
+[root@localhost jamal]#  vi /etc/yum.repos.d/mongodb-enterprise-5.0.repo
+
+[3]+  Stopped                 vi /etc/yum.repos.d/mongodb-enterprise-5.0.repo
+[root@localhost jamal]# sudo yum install -y mongodb-enterprise
+Loaded plugins: fastestmirror, langpacks
+
+Loading mirror speeds from cached hostfile
+ * base: mirrors.ges.net.pk
+ * extras: mirrors.ges.net.pk
+ * updates: mirrors.ges.net.pk
+No package mongodb-enterprise available.
+Error: Nothing to do
+[root@localhost jamal]# 
+[root@localhost jamal]# cleara
+bash: cleara: command not found...
+Similar command is: 'clear'
+[root@localhost jamal]# clear
+
+[root@localhost jamal]# vi /etc/yum.repos.d/mongodb-enterprise-5.0.repo
+[root@localhost jamal]# sudo yum install -y mongodb-enterprise
+
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirrors.ges.net.pk
+ * extras: mirrors.ges.net.pk
+ * updates: mirrors.ges.net.pk
+mongodb-enterprise-5.0                                          | 2.5 kB  00:00:00     
+mongodb-enterprise-5.0/7/x86_64/primary_db                      |  71 kB  00:00:01     
+Resolving Dependencies
+--> Running transaction check
+---> Package mongodb-enterprise.x86_64 0:5.0.6-1.el7 will be installed
+--> Processing Dependency: mongodb-mongosh for package: mongodb-enterprise-5.0.6-1.el7.x86_64
+--> Processing Dependency: mongodb-enterprise-database for package: mongodb-enterprise-5.0.6-1.el7.x86_64
+--> Processing Dependency: mongodb-enterprise-tools for package: mongodb-enterprise-5.0.6-1.el7.x86_64
+--> Running transaction check
+---> Package mongodb-enterprise-database.x86_64 0:5.0.6-1.el7 will be installed
+--> Processing Dependency: mongodb-enterprise-database-tools-extra for package: mongodb-enterprise-database-5.0.6-1.el7.x86_64
+--> Processing Dependency: mongodb-enterprise-shell for package: mongodb-enterprise-database-5.0.6-1.el7.x86_64
+--> Processing Dependency: mongodb-enterprise-mongos for package: mongodb-enterprise-database-5.0.6-1.el7.x86_64
+--> Processing Dependency: mongodb-enterprise-server for package: mongodb-enterprise-database-5.0.6-1.el7.x86_64
+--> Processing Dependency: mongodb-enterprise-cryptd for package: mongodb-enterprise-database-5.0.6-1.el7.x86_64
+---> Package mongodb-enterprise-tools.x86_64 0:5.0.6-1.el7 will be installed
+--> Processing Dependency: mongodb-database-tools for package: mongodb-enterprise-tools-5.0.6-1.el7.x86_64
+---> Package mongodb-mongosh.x86_64 0:1.1.9-1.el7 will be installed
+--> Running transaction check
+---> Package mongodb-database-tools.x86_64 0:100.5.2-1 will be installed
+---> Package mongodb-enterprise-cryptd.x86_64 0:5.0.6-1.el7 will be installed
+---> Package mongodb-enterprise-database-tools-extra.x86_64 0:5.0.6-1.el7 will be installed
+---> Package mongodb-enterprise-mongos.x86_64 0:5.0.6-1.el7 will be installed
+---> Package mongodb-enterprise-server.x86_64 0:5.0.6-1.el7 will be installed
+--> Processing Dependency: net-snmp for package: mongodb-enterprise-server-5.0.6-1.el7.x86_64
+--> Processing Dependency: libnetsnmpmibs.so.31()(64bit) for package: mongodb-enterprise-server-5.0.6-1.el7.x86_64
+--> Processing Dependency: libnetsnmpagent.so.31()(64bit) for package: mongodb-enterprise-server-5.0.6-1.el7.x86_64
+---> Package mongodb-enterprise-shell.x86_64 0:5.0.6-1.el7 will be installed
+--> Running transaction check
+---> Package net-snmp.x86_64 1:5.7.2-49.el7_9.1 will be installed
+---> Package net-snmp-agent-libs.x86_64 1:5.7.2-49.el7_9.1 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+=======================================================================================
+ Package                        Arch   Version            Repository              Size
+=======================================================================================
+Installing:
+ mongodb-enterprise             x86_64 5.0.6-1.el7        mongodb-enterprise-5.0 6.2 k
+Installing for dependencies:
+ mongodb-database-tools         x86_64 100.5.2-1          mongodb-enterprise-5.0  47 M
+ mongodb-enterprise-cryptd      x86_64 5.0.6-1.el7        mongodb-enterprise-5.0  18 M
+ mongodb-enterprise-database    x86_64 5.0.6-1.el7        mongodb-enterprise-5.0 6.4 k
+ mongodb-enterprise-database-tools-extra
+                                x86_64 5.0.6-1.el7        mongodb-enterprise-5.0  28 M
+ mongodb-enterprise-mongos      x86_64 5.0.6-1.el7        mongodb-enterprise-5.0  20 M
+ mongodb-enterprise-server      x86_64 5.0.6-1.el7        mongodb-enterprise-5.0  28 M
+ mongodb-enterprise-shell       x86_64 5.0.6-1.el7        mongodb-enterprise-5.0  18 M
+ mongodb-enterprise-tools       x86_64 5.0.6-1.el7        mongodb-enterprise-5.0 6.1 k
+ mongodb-mongosh                x86_64 1.1.9-1.el7        mongodb-enterprise-5.0  44 M
+ net-snmp                       x86_64 1:5.7.2-49.el7_9.1 updates                325 k
+ net-snmp-agent-libs            x86_64 1:5.7.2-49.el7_9.1 updates                707 k
+
+Transaction Summary
+=======================================================================================
+Install  1 Package (+11 Dependent packages)
+
+Total download size: 204 M
+Installed size: 751 M
+Downloading packages:
+warning: /var/cache/yum/x86_64/7/mongodb-enterprise-5.0/packages/mongodb-enterprise-5.0.6-1.el7.x86_64.rpm: Header V3 RSA/SHA1 Signature, key ID e2c63c11: NOKEY
+Public key for mongodb-enterprise-5.0.6-1.el7.x86_64.rpm is not installed
+(1/12): mongodb-enterprise-5.0.6-1.el7.x86_64.rpm               | 6.2 kB  00:00:02     
+(2/12): mongodb-enterprise-cryptd-5.0.6-1.el7.x86_64.rpm        |  18 MB  00:00:21     
+(3/12): mongodb-enterprise-database-5.0.6-1.el7.x86_64.rpm      | 6.4 kB  00:00:00     
+(4/12): mongodb-database-tools-100.5.2.x86_64.rpm               |  47 MB  00:00:38     
+(5/12): mongodb-enterprise-database-tools-extra-5.0.6-1.el7.x86 |  28 MB  00:00:26     
+(6/12): mongodb-enterprise-mongos-5.0.6-1.el7.x86_64.rpm        |  20 MB  00:00:19     
+(7/12): mongodb-enterprise-server-5.0.6-1.el7.x86_64.rpm        |  28 MB  00:00:24     
+(8/12): mongodb-enterprise-tools-5.0.6-1.el7.x86_64.rpm         | 6.1 kB  00:00:00     
+(9/12): mongodb-enterprise-shell-5.0.6-1.el7.x86_64.rpm         |  18 MB  00:00:21     
+(10/12): net-snmp-5.7.2-49.el7_9.1.x86_64.rpm                   | 325 kB  00:00:03     
+(11/12): net-snmp-agent-libs-5.7.2-49.el7_9.1.x86_64.rpm        | 707 kB  00:00:04     
+(12/12): mongodb-mongosh-1.1.9.el7.x86_64.rpm                   |  44 MB  00:00:24     
+---------------------------------------------------------------------------------------
+Total                                                     2.0 MB/s | 204 MB  01:40     
+Retrieving key from https://www.mongodb.org/static/pgp/server-5.0.asc
+Importing GPG key 0xE2C63C11:
+ Userid     : "MongoDB 5.0 Release Signing Key <packaging@mongodb.com>"
+ Fingerprint: f567 9a22 2c64 7c87 527c 2f8c b00a 0bd1 e2c6 3c11
+ From       : https://www.mongodb.org/static/pgp/server-5.0.asc
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : 1:net-snmp-agent-libs-5.7.2-49.el7_9.1.x86_64                      1/12 
+  Installing : mongodb-enterprise-database-tools-extra-5.0.6-1.el7.x86_64         2/12 
+  Installing : 1:net-snmp-5.7.2-49.el7_9.1.x86_64                                 3/12 
+  Installing : mongodb-enterprise-server-5.0.6-1.el7.x86_64                       4/12 
+Created symlink from /etc/systemd/system/multi-user.target.wants/mongod.service to /usr/lib/systemd/system/mongod.service.
+  Installing : mongodb-database-tools-100.5.2-1.x86_64                            5/12 
+  Installing : mongodb-enterprise-tools-5.0.6-1.el7.x86_64                        6/12 
+  Installing : mongodb-enterprise-mongos-5.0.6-1.el7.x86_64                       7/12 
+  Installing : mongodb-enterprise-cryptd-5.0.6-1.el7.x86_64                       8/12 
+  Installing : mongodb-mongosh-1.1.9-1.el7.x86_64                                 9/12 
+  Installing : mongodb-enterprise-shell-5.0.6-1.el7.x86_64                       10/12 
+  Installing : mongodb-enterprise-database-5.0.6-1.el7.x86_64                    11/12 
+  Installing : mongodb-enterprise-5.0.6-1.el7.x86_64                             12/12 
+  Verifying  : mongodb-enterprise-shell-5.0.6-1.el7.x86_64                        1/12 
+  Verifying  : mongodb-enterprise-tools-5.0.6-1.el7.x86_64                        2/12 
+  Verifying  : mongodb-enterprise-server-5.0.6-1.el7.x86_64                       3/12 
+  Verifying  : mongodb-enterprise-5.0.6-1.el7.x86_64                              4/12 
+  Verifying  : mongodb-mongosh-1.1.9-1.el7.x86_64                                 5/12 
+  Verifying  : mongodb-enterprise-database-tools-extra-5.0.6-1.el7.x86_64         6/12 
+  Verifying  : mongodb-enterprise-database-5.0.6-1.el7.x86_64                     7/12 
+  Verifying  : mongodb-enterprise-cryptd-5.0.6-1.el7.x86_64                       8/12 
+  Verifying  : mongodb-enterprise-mongos-5.0.6-1.el7.x86_64                       9/12 
+  Verifying  : 1:net-snmp-agent-libs-5.7.2-49.el7_9.1.x86_64                     10/12 
+  Verifying  : mongodb-database-tools-100.5.2-1.x86_64                           11/12 
+  Verifying  : 1:net-snmp-5.7.2-49.el7_9.1.x86_64                                12/12 
+
+Installed:
+  mongodb-enterprise.x86_64 0:5.0.6-1.el7                                              
+
+Dependency Installed:
+  mongodb-database-tools.x86_64 0:100.5.2-1                                            
+  mongodb-enterprise-cryptd.x86_64 0:5.0.6-1.el7                                       
+  mongodb-enterprise-database.x86_64 0:5.0.6-1.el7                                     
+  mongodb-enterprise-database-tools-extra.x86_64 0:5.0.6-1.el7                         
+  mongodb-enterprise-mongos.x86_64 0:5.0.6-1.el7                                       
+  mongodb-enterprise-server.x86_64 0:5.0.6-1.el7                                       
+  mongodb-enterprise-shell.x86_64 0:5.0.6-1.el7                                        
+  mongodb-enterprise-tools.x86_64 0:5.0.6-1.el7                                        
+  mongodb-mongosh.x86_64 0:1.1.9-1.el7                                                 
+  net-snmp.x86_64 1:5.7.2-49.el7_9.1                                                   
+  net-snmp-agent-libs.x86_64 1:5.7.2-49.el7_9.1                                        
+
+Complete!
+[root@localhost jamal]# 
+[root@localhost jamal]# sudo systemctl start mongod
+[root@localhost jamal]# 
+[root@localhost jamal]# sudo systemctl reload mongod
+Failed to reload mongod.service: Job type reload is not applicable for unit mongod.service.
+See system logs and 'systemctl status mongod.service' for details.
+[root@localhost jamal]# 
+[root@localhost jamal]# sudo tail /var/log/mongodb/mongod.log
+{"t":{"$date":"2022-02-17T13:28:56.221+05:00"},"s":"I",  "c":"REPL",     "id":6015317, "ctx":"initandlisten","msg":"Setting new configuration state","attr":{"newState":"ConfigReplicationDisabled","oldState":"ConfigPreStart"}}
+{"t":{"$date":"2022-02-17T13:28:56.241+05:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"LogicalSessionCacheRefresh","msg":"createCollection","attr":{"namespace":"config.system.sessions","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"7fbde130-a259-4d2a-91fd-d90a809507fe"}},"options":{}}}
+{"t":{"$date":"2022-02-17T13:28:56.253+05:00"},"s":"I",  "c":"CONTROL",  "id":20712,   "ctx":"LogicalSessionCacheReap","msg":"Sessions collection is not set up; waiting until next sessions reap interval","attr":{"error":"NamespaceNotFound: config.system.sessions does not exist"}}
+{"t":{"$date":"2022-02-17T13:28:56.271+05:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"/tmp/mongodb-27017.sock"}}
+{"t":{"$date":"2022-02-17T13:28:56.271+05:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"127.0.0.1"}}
+{"t":{"$date":"2022-02-17T13:28:56.271+05:00"},"s":"I",  "c":"NETWORK",  "id":23016,   "ctx":"listener","msg":"Waiting for connections","attr":{"port":27017,"ssl":"off"}}
+{"t":{"$date":"2022-02-17T13:28:56.435+05:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"LogicalSessionCacheRefresh","msg":"Index build: done building","attr":{"buildUUID":null,"namespace":"config.system.sessions","index":"_id_","commitTimestamp":null}}
+{"t":{"$date":"2022-02-17T13:28:56.435+05:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"LogicalSessionCacheRefresh","msg":"Index build: done building","attr":{"buildUUID":null,"namespace":"config.system.sessions","index":"lsidTTLIndex","commitTimestamp":null}}
+{"t":{"$date":"2022-02-17T13:28:56.435+05:00"},"s":"I",  "c":"COMMAND",  "id":51803,   "ctx":"LogicalSessionCacheRefresh","msg":"Slow query","attr":{"type":"command","ns":"config.system.sessions","command":{"createIndexes":"system.sessions","v":2,"indexes":[{"key":{"lastUse":1},"name":"lsidTTLIndex","expireAfterSeconds":1800}],"ignoreUnknownIndexOptions":false,"writeConcern":{},"$db":"config"},"numYields":0,"reslen":114,"locks":{"ParallelBatchWriterMode":{"acquireCount":{"r":4}},"ReplicationStateTransition":{"acquireCount":{"w":4}},"Global":{"acquireCount":{"r":4,"w":1}},"Database":{"acquireCount":{"r":3,"w":1}},"Collection":{"acquireCount":{"r":3,"w":1}},"Mutex":{"acquireCount":{"r":6}}},"storage":{},"protocol":"op_msg","durationMillis":194}}
+{"t":{"$date":"2022-02-17T13:29:56.365+05:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":"[1645086596:185603][14735:0x7f0a8908c700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 34, snapshot max: 34 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1"}}
+[root@localhost jamal]# 
+[root@localhost jamal]# mongo
+MongoDB shell version v5.0.6
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("b3546cc4-cd7b-4bd4-b892-dacb8f61e994") }
+MongoDB server version: 5.0.6
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+Welcome to the MongoDB shell.
+For interactive help, type "help".
+For more comprehensive documentation, see
+	https://docs.mongodb.com/
+Questions? Try the MongoDB Developer Community Forums
+	https://community.mongodb.com
+---
+The server generated these startup warnings when booting: 
+        2022-02-17T13:28:55.986+05:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+        2022-02-17T13:28:55.986+05:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+        2022-02-17T13:28:55.986+05:00: /sys/kernel/mm/transparent_hugepage/defrag is 'always'. We suggest setting it to 'never'
+---
+MongoDB Enterprise > 
+MongoDB Enterprise > 
+
+
