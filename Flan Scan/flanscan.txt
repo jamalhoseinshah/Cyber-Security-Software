@@ -24,7 +24,7 @@ Its better you can use kali operating system in order to avoid package installat
 
 CASE STUDY NO:1
 
-Moreover, You can see below target if port is closed you will get this below result if open they you will get result as you can see snap shots are attached.
+Moreover, You can see below target if port is closed you will get this below result if open they you will get result as you can see snap shots are attached.  ref. snapshot Screenshot_2022-04-06_17_56_54.png
 
 sudo  nmap -sV -oX result -oN - -v1 $@ --script=vulners.nse -p 80 icebreakerspro.com
 
