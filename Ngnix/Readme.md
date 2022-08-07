@@ -1,4 +1,4 @@
-This is all created by Jamal Hussain Shah in order facilitate others installation of nginx without any difficulty.
+This is all created by Jamal Hussain Shah in order  to facilitate others installation of nginx without any difficulty.
 
 #### How to Install and Configure Nginx from Source on Linux
 
