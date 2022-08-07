@@ -29,7 +29,7 @@ Function of nginx
     This is a library of functions to support regular expressions whose syntax and semantics are as close as possible to those of the Perl 5 language.
 
 
-               sudo apt install libpcre3 libpcre3-dev
+               sudo apt install libpcre3 libpcre3-dev 
    
    *   Start the configuration installer of the Nginx.
 
@@ -78,6 +78,14 @@ Function of nginx
 
              sudo rm -f -R /usr/local/nginx && rm -f /usr/local/sbin/nginx
     
-    
    
    jamal hussain shah 
+   
+![Screenshot_2022-08-06_23_03_10](https://user-images.githubusercontent.com/95676591/183277430-dd24c2
+![Screenshot_2022-08-06_23_03_51](https://user-images.githubusercontent.com/95676591/183277453-869cfb81-a4bc-49fa-bf33-3958c53c76e5.png)
+
+![Screenshot_2022-08-07_09_45_58](https://user-images.githubusercontent.com/95676591/183277472-1ccd47dd-acb5-47bf-af3e-fbdf6da7a2b5.png)
+ 
+   
+
+   
