@@ -44,6 +44,11 @@ Function of nginx
    * Navigate to /usr/local/nginx using the cd command (change directory):
 
              cd /usr/local/nginx/sbin
+             
+    * Incase of kali OS below command for configuration setting. 
+             
+             sudo nano /etc/nginx/nginx.conf 
+
 
    * To check what is the current installed version of the Nginx.
 
