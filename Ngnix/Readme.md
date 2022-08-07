@@ -17,7 +17,7 @@ Function of nginx
 ### Installation of Nginx
     
     
-   *you can download the Nginx web server archive file by running the following command in the terminal.
+   * you can download the Nginx web server archive file by running the following command in the terminal.
 
                wget http://nginx.org/download/nginx-1.21.1.tar.gz
 
