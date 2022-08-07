@@ -64,6 +64,11 @@ Function of nginx
    *  Open the nginx.conf file by running the following command:
 
            sudo nano /usr/local/nginx/conf
+           
+        ![Screenshotfrom20210716213545-1024x853](https://user-images.githubusercontent.com/95676591/183297208-40124935-3d6e-439c-8153-73078bdc79fe.png)
+   
+           
+           
 
    * Navigate to this server section and change listen 80; port to any other port number, e.g. 5555, etc.
    
