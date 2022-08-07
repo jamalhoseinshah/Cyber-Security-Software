@@ -82,8 +82,11 @@ Function of nginx
     
    
    
+![Screenshot_2022-08-06_23_03_10](https://user-images.githubusercontent.com/95676591/183278465-cefcc3f5-7b41-4ed3-b3c8-01b3b66db5ea.png)
 
- 
-   
+![Screenshot_2022-08-06_23_02_11](https://user-images.githubusercontent.com/95676591/183278488-1a6dec01-6b03-48d9-9f6b-6ed859145267.png)
 
-   
+![Screenshot_2022-08-06_23_03_57](https://user-images.githubusercontent.com/95676591/183278502-18ea5207-0030-4f72-bf47-2653417062fb.png)
+
+![Screenshot_2022-08-06_23_02_44 (1)](https://user-images.githubusercontent.com/95676591/183278537-7c61b107-1d71-48ae-ae2d-5fcf15383c82.png)
+
