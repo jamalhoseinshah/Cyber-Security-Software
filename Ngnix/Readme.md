@@ -80,8 +80,9 @@ Function of nginx
     
    
    jamal hussain shah 
+![Screenshot_2022-08-06_23_03_10](https://user-images.githubusercontent.com/95676591/183277563-9e9f7559-eafa-4442-952a-6bbb316f74b8.png)
    
-![Screenshot_2022-08-06_23_03_10](https://user-images.githubusercontent.com/95676591/183277430-dd24c2
+
 ![Screenshot_2022-08-06_23_03_51](https://user-images.githubusercontent.com/95676591/183277453-869cfb81-a4bc-49fa-bf33-3958c53c76e5.png)
 
 ![Screenshot_2022-08-07_09_45_58](https://user-images.githubusercontent.com/95676591/183277472-1ccd47dd-acb5-47bf-af3e-fbdf6da7a2b5.png)
