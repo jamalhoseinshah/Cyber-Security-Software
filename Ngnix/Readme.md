@@ -1,4 +1,4 @@
-###How to Install and Configure Nginx from Source on Linux
+##  How to Install and Configure Nginx from Source on Linux
 
 Nginx is written in C language by Igor Sysoev to overcome the C10K problem (i.e. Concurrently handling 10k(ten thousand) connections). The problem was how to optimize the network socket to handle numerous clients at the same time. Nginx is a solution to that problem. It is a free and open-source software for reverse proxying, load balancer, web serving, media streaming, etc
 
@@ -78,5 +78,5 @@ Function of nginx
              sudo rm -f -R /usr/local/nginx && rm -f /usr/local/sbin/nginx
     
     
-   Regards
+    
    jamal hussain shah 
