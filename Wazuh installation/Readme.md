@@ -1,4 +1,4 @@
-This is created by jamal hussain shah in order to facilate others quick installation of WAZUH without wasting of time. 
+This was created by Jamal Hussain Shah in order to facilitate others' quick installation of WAZUH without wasting time.
 
 ## Wazuh 
 
@@ -42,6 +42,7 @@ By default, login user name is admin and password is admin.
 Windows 10 Operating system, the antivirus protection that comes installed with the device is your default security app.
 
 Important: Windows operating systems are embedded with a lot of security, which creates problems for opening, but if you open this IP on a Linux machine, it will open without any error.
+
 ![p6-1024x533](https://user-images.githubusercontent.com/95676591/184076780-b8012ca3-db6f-4cbc-abeb-eceb931f4c53.png)
 
 ## Installation of Wazuh agent 
@@ -136,6 +137,7 @@ Verify that the agents are now connected to the server and active;
      /var/ossec/bin/agent_control -l
 
 You can also verify from the Wazuh interface. Wondering how? See our guide on integrating Wazuh Server with ELK stack.
+
 
 ![p6-1024x533](https://user-images.githubusercontent.com/95676591/184076912-f1fcb494-60a1-4f56-96bb-2e5c4cf8eb08.png)
 
