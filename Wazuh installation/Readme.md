@@ -1,4 +1,4 @@
-This was created by Jamal Hussain Shah in order to facilitate others' quick installation of WAZUH without wasting time.
+This one was created by Jamal Hussain Shah to facilitate rapid installation of WAZUH without wasting any time.
 
 ![images](https://user-images.githubusercontent.com/95676591/184079613-11fe0edc-93ca-4ef5-95c7-7fc8c46076fc.png)
  
