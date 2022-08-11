@@ -1,5 +1,7 @@
 This was created by Jamal Hussain Shah in order to facilitate others' quick installation of WAZUH without wasting time.
 
+![images](https://user-images.githubusercontent.com/95676591/184079613-11fe0edc-93ca-4ef5-95c7-7fc8c46076fc.png)
+
 ## Wazuh 
 
 Wazuh is a free, open source and enterprise-ready security monitoring solution for threat detection, integrity monitoring, incident response and compliance.
