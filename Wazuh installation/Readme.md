@@ -30,6 +30,7 @@ On the virtualbox start option in order to begin installation.
 
 Once installation is completed, username and password will appear on the screen. 
 By default, the username is wazuh-user and password wazuh. 
+
 ![1_ntmV4oYMjMJRxh2fV8P5dQ](https://user-images.githubusercontent.com/95676591/184076582-8fb887bf-e10a-4440-925c-70930b3c801b.png)
 
 In order to find an ip address you will type ip add on terminal . It will show an ip address and when you open the browser type this ip address you will see wazuh interface begins.
@@ -68,46 +69,51 @@ Wazuh provides APT repositories which makes it easy to install Wazuh agents on U
 Therefore, to use Wazuh APT repos to install Wazuh agents on Ubuntu/Debian system:
 
 Install Repository GPG signing Key
-    apt install curl
-    curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | apt-key add -
+      
+       apt install curl
+       curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | apt-key add -
 
 Add Wazuh repository:
-    echo "deb https://packages.wazuh.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/wazuh.list
+      
+       echo "deb https://packages.wazuh.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/wazuh.list
 
 Update system package cache:
-    apt update
+      
+       apt update
 
 Install Wazuh Agents on Ubuntu/Debian
+
 Now that the repos are set, you can proceed to install Wazuh agents. However, there are two options here Install and manually register the agent
 So if you need to install the agent and later add it to the server for manual registration, simply run the command below to install it;
 
-    apt install wazuh-agent
+      apt install wazuh-agent
     
 If you choose to install the Wazuh agent this way, then you need to add the agent to the server by running the command below (on the server where the agent is installed)
 
-   /var/ossec/bin/agent-auth -m MANAGER-IP [-A AGENT_NAME]
+     /var/ossec/bin/agent-auth -m MANAGER-IP [-A AGENT_NAME]
 
 To register the agent with the automatic system hostname name just omit the [-A AGENT_NAME].
 However, before you can proceed, ensure you can connect to the Wazuh-manager registration ports 1515/TCP. Ensure that this port is open on the firewall, if any is running.
     
-   telnet 192.168.59.17 1515
-   Trying 192.168.59.17...
-   Connected to 192.168.59.17.
-   Escape character is '^]'.
    
-   /var/ossec/bin/agent-auth -m 192.168.59.17
+     telnet 192.168.59.17 1515
+     Trying 192.168.59.17...
+     Connected to 192.168.59.17.
+     Escape character is '^]'.
+   
+     /var/ossec/bin/agent-auth -m 192.168.59.17
    
 Next, set the Wazuh server IP in the Wazuh configuration file, /var/ossec/etc/ossec.conf.
 
 Simple replace MANAGER_IP with the IP address;
 
-   sed -i 's/MANAGER_IP/192.168.59.17/' /var/ossec/etc/ossec.conf
+     sed -i 's/MANAGER_IP/192.168.59.17/' /var/ossec/etc/ossec.conf
 
 Install and automatically register Wazuh agent
 
 To install and automatically register your Wazuh agent, execute the command below. Replace the Wazuh-manager IP accordingly.
 
-   WAZUH_MANAGER="192.168.59.17" apt install wazuh-agent
+     WAZUH_MANAGER="192.168.59.17" apt install wazuh-agent
  
 You can also download the installation command to automatically enroll the agent right from the Wazuh manager agents dashboard.
 Navigate to Wazuh App > Agents > Deploy new agent and follow the procedure.
@@ -118,16 +124,16 @@ Once the agents are installed and registered, start and enable the agents to run
 Before that, you need to know that by default, Wazuh expects the agent to communicate with it through 1514/TCP.
 Hence, ensure that this port is opened on the Wazuh server if the firewall is running.
 
-   systemctl enable --now wazuh-agent.service
+     systemctl enable --now wazuh-agent.service
 
 Be sure to check the logs;
 
-   tail -f /var/ossec/logs/ossec.log
+     tail -f /var/ossec/logs/ossec.log
 
 Check Wazuh Agents Status
 Verify that the agents are now connected to the server and active;
 
-   /var/ossec/bin/agent_control -l
+     /var/ossec/bin/agent_control -l
 
 You can also verify from the Wazuh interface. Wondering how? See our guide on integrating Wazuh Server with ELK stack.
 
