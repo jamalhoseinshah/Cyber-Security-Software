@@ -20,14 +20,19 @@ Windows download is not compatible with Windows 10.
 A lot of confusion regarding installation of OpenAudit,  but I have explained the very simple procedure of installing openAudit in chronological order in the terminal of a linux operating system such as Ubuntu.  
  
      sudo -i
+     
  
      mkdir openAuditIt
+     
  
      cd openAuditIT
+     
  
      wget https://dl-openaudit.opmantek.com/OAE-Linux-x86_64-release_4.3.3.run
+     
  
      chmod u+x ./OAE-Linux-x86_64-release_4.3.3.run
+     
  
      sudo sh ./OAE-Linux-x86_64-release_4.3.3.run
  
@@ -62,7 +67,7 @@ The following instructions are given during the phase of installation.
   
 * Do you want to start the Opmantek daemon now?:y
  
-===================================================== DONE INSTALLATION ============================================
+#### Compeleted Installation and read to open OpenAuditIT interface on browser. 
 
 
 The following instructions are written in the snapshot below in order to open the interface in browser for ready to excess interface of OpenAudit  and password by default are username : admin and password : password. 
