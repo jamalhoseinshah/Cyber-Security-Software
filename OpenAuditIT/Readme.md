@@ -1,3 +1,5 @@
+This was created by Jamal Hussain Shah in order to facilitate others regarding installing openAduitIT software without any difficulty.
+
 ### OpenAudit Software Installation Guidance 
  
 ### What is open-audit and how does it work?
