@@ -1,4 +1,4 @@
-## OpenAudit Software Installation Guidance 
+### OpenAudit Software Installation Guidance 
  
 ### What is open-audit and how does it work?
 
@@ -10,7 +10,7 @@ The script gathers extensive information and sends it back to the Open-AudIT ser
  
 ### Compatibility
 
-Windows download is not compatible with Windows 10.
+* Windows download is not compatible with Windows 10.
 * Opmantek uses and recommends Windows Server 2016. 
 * All downloads are for 64bit systems only.
 * Most suitable installation in Cento , Ubuntu and window server 2016 is recommended. Other than these mentioned operating systems it is very difficult to handle installation. 
@@ -19,22 +19,32 @@ Windows download is not compatible with Windows 10.
 
 A lot of confusion regarding installation of OpenAudit,  but I have explained the very simple procedure of installing openAudit in chronological order in the terminal of a linux operating system such as Ubuntu.  
  
-     sudo -i
+ Entering to root 
+ 
+       sudo -i
+     
+ Make a Directory named as OpenAuditIT
+ 
+       mkdir openAuditIt
+     
+ Move to OpenAuditIT directory
+ 
+       cd openAuditIT
+     
+ Start Installation OpenAuditIT it will direct install from Website.
+ 
+ 
+       wget https://dl-openaudit.opmantek.com/OAE-Linux-x86_64-release_4.3.3.run
+       
+     
+chmod +x file.run gives the file the execute permission but it does not control whose permissions the file has when it executes. ./file.run runs the file with the privileges of your user. sudo ./file.run runs the file with the privileges of root. Your file.run apparently needs root privileges.
+     
+       chmod u+x ./OAE-Linux-x86_64-release_4.3.3.run
+     
+Go to open-audit.organd download the latest version. Supply your name, email and company and download the binary. Run “sudo ./OAE-Linux-x86_64-release_2.0.11.run”. Log on to Open-AudIT and you should see a splash screen informing you that you do not have a license – but Opmantek will give you a 20 device license for free
      
  
-     mkdir openAuditIt
-     
- 
-     cd openAuditIT
-     
- 
-     wget https://dl-openaudit.opmantek.com/OAE-Linux-x86_64-release_4.3.3.run
-     
- 
-     chmod u+x ./OAE-Linux-x86_64-release_4.3.3.run
-     
- 
-     sudo sh ./OAE-Linux-x86_64-release_4.3.3.run
+       sudo sh ./OAE-Linux-x86_64-release_4.3.3.run
  
  
 The following instructions are given during the phase of installation. 
@@ -73,3 +83,10 @@ The following instructions are given during the phase of installation.
 The following instructions are written in the snapshot below in order to open the interface in browser for ready to excess interface of OpenAudit  and password by default are username : admin and password : password. 
   
 Type on Browser:  http://<IP address>:8042/en/omk/open-audit/login
+ 
+ ![Screenshot from 2022-08-13 02-50-13](https://user-images.githubusercontent.com/95676591/184525428-043014fc-fdcc-4b53-b0b2-a6bdbd408414.png)
+
+![Screenshot from 2022-08-13 04-01-12](https://user-images.githubusercontent.com/95676591/184525651-e195ef68-3b02-4b49-90e1-0ff4e4feb097.png)
+ 
+ ![Screenshot from 2022-08-13 03-59-42](https://user-images.githubusercontent.com/95676591/184525676-2883e3aa-7907-4a84-ab57-154cbf55ed98.png)
+
