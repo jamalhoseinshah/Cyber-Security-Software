@@ -1,6 +1,9 @@
 This was created by Jamal Hussain Shah in order to facilitate others regarding installing openAduitIT software without any difficulty.
 
-### OpenAudit Software Installation Guidance 
+### OpenAudit Software Installation Guidance
+
+![logo-open-audit](https://user-images.githubusercontent.com/95676591/184526178-2bf7112c-3f2d-479c-a40e-892b1948a84e.png)
+
  
 ### What is open-audit and how does it work?
 
