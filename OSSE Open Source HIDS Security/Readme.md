@@ -340,10 +340,14 @@ Check all the mails with Alert level 7, you should see the following alerts:
 You can also check the OSSEC alert by accessing OSSEC Web UI.  
 To do so, open your web browser and type the URL http://<Your Ip add>/ossec. You should see the OSSEC dashboard in the following screenshots:
 
+ ![fim-test](https://user-images.githubusercontent.com/95676591/184601650-5243be8d-f98f-425f-9ee4-a092e9b61b38.gif)
+
+ 
+
  ![Screenshot from 2022-08-14 17-50-59](https://user-images.githubusercontent.com/95676591/184599400-82b2f5b0-460f-47fc-a6da-4d0ed78ab0bf.png)
  
               
-              ![fim-test](https://user-images.githubusercontent.com/95676591/184599443-bad57aa2-6f0a-440a-885c-9258c2193621.gif)
+             
 
  
 
