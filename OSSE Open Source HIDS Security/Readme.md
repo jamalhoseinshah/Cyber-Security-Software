@@ -1,3 +1,8 @@
+This was created by Jamal Hussain Shah in order to facilitate others' for installing of the OSSEC (Open Source HIDS Security) tool.
+
+![Ossec-open-source-hid](https://user-images.githubusercontent.com/95676591/184600919-e4b714da-d0e3-48d0-8780-956a0ef4a5f0.png)
+
+
 ### OSSEC (Open Source HIDS Security)
 
 OSSEC (Open Source HIDS SECurity) is a free, open-source host-based intrusion detection system (HIDS). It performs log analysis, integrity checking, Windows registry monitoring, rootkit detection, time-based alerting, and active response. It provides intrusion detection for most operating systems, including Linux, OpenBSD, FreeBSD, OS X, Solaris and Windows. OSSEC has a centralized, cross-platform architecture allowing multiple systems to be easily monitored and managed.[2] OSSEC has a log analysis engine that is able to correlate and analyze logs from multiple devices and formats
@@ -338,3 +343,8 @@ To do so, open your web browser and type the URL http://<Your Ip add>/ossec. You
  ![Screenshot from 2022-08-14 17-50-59](https://user-images.githubusercontent.com/95676591/184599400-82b2f5b0-460f-47fc-a6da-4d0ed78ab0bf.png)
  
 ![fim-test](https://user-images.githubusercontent.com/95676591/184599443-bad57aa2-6f0a-440a-885c-9258c2193621.gif)
+
+ 
+In order to view the whole installation procedure, you can download all the snapshots that were taken during the process of installation.
+ 
+ Jamal Hussain shah 
