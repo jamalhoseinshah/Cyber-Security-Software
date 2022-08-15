@@ -82,8 +82,7 @@ Choose local to monitor the server it has been installed on then press Enter:
 
 - Choose where to install the OSSEC HIDS [/var/ossec]:
 
-Choose OSSEC install location and press Enter:
-- Installation will be made at /var/ossec .
+Choose OSSEC install location and press Enter:  - Installation will be made at /var/ossec .
   
 3- Configuring the OSSEC HIDS.
   
