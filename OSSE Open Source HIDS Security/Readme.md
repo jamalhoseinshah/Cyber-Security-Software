@@ -342,9 +342,11 @@ To do so, open your web browser and type the URL http://<Your Ip add>/ossec. You
 
  ![Screenshot from 2022-08-14 17-50-59](https://user-images.githubusercontent.com/95676591/184599400-82b2f5b0-460f-47fc-a6da-4d0ed78ab0bf.png)
  
-![fim-test](https://user-images.githubusercontent.com/95676591/184599443-bad57aa2-6f0a-440a-885c-9258c2193621.gif)
+              
+              ![fim-test](https://user-images.githubusercontent.com/95676591/184599443-bad57aa2-6f0a-440a-885c-9258c2193621.gif)
 
  
+
 In order to view the whole installation procedure, you can download all the snapshots that were taken during the process of installation.
  
  Jamal Hussain shah 
