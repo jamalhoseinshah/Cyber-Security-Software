@@ -20,7 +20,6 @@ To install Openvas and its dependencies on our Kali Linux system run the followi
           
 After the configuration process is complete, all the necessary OpenVAS processes will start and the web interface will open automatically. The web interface is running locally on port 9392 and can be accessed through https://localhost:9392. OpenVAS will also set up an admin account and automatically generate a password for this account which is displayed in the last section of the setup output:
 
-![Screenshot_2022-09-11_13_19_58](https://user-images.githubusercontent.com/95676591/189536687-2886cd81-52d4-46d1-a724-2f28f626332a.png)
 
 ![Screenshot_2022-09-11_13_20_29](https://user-images.githubusercontent.com/95676591/189536704-204ce5ed-0f68-4e22-8353-8d53688d8978.png)
 
